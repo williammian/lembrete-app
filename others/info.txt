@@ -1,0 +1,18 @@
+Deploy Angular App no tomcat - projeto front-end
+
+(desenvolvimento)
+ng build  --base-href=/lembrete/
+
+(producao)
+ng build --prod --base-href=/lembrete/
+
+Pegar os arquivos da pasta dist/lembrete-app
+
+Ir na pasta do tomcat
+Pasta webapps
+Criar uma pasta lembrete
+Colocar os arquivos nesta pasta
+
+no browser
+localhost:8080/lembrete/
+
