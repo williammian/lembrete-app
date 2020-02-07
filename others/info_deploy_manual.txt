@@ -6,6 +6,8 @@ ng build  --base-href=/lembrete/
 (producao)
 ng build --prod --base-href=/lembrete/
 
+---------------------------------------------
+
 Pegar os arquivos da pasta dist/lembrete-app
 
 Ir na pasta do tomcat
@@ -15,4 +17,16 @@ Colocar os arquivos nesta pasta
 
 no browser
 localhost:8080/lembrete/
+
+---------------------------------------------
+
+Pegar os arquivos da pasta dist/lembrete-app
+
+Ir na pasta do Nginx
+Pasta html
+Criar uma pasta lembrete
+Colocar os arquivos nesta pasta
+
+no browser
+localhost/lembrete
 
