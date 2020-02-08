@@ -1,0 +1,6 @@
+//gerando imagem docker da api
+//executar o comando dentro da pasta onde se encontra o Dockerfile
+docker build -t lembrete-app .
+
+//rodando imagem do app com docker
+docker run -d --name app-producao -p 80:80  lembrete-app
